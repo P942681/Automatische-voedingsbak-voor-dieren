@@ -41,21 +41,27 @@ Door middel van onze automatische voederbak kun je dit tegen gaan. Je kunt deze 
 Aan de hand van onze prototypes hebben we een realistische en haalbare grootte kunnen kiezen om daarop later onze PCB's en onze motoren te baseren. Hoe groot kan onze PCB zijn? Hoe groot zijn de kleppen die opengaan? Hoe groot wordt de lade om de bak bij te vullen? Hoe groot kunnen de motoren zijn? Waar kunnen we het beste onze Wi-Fi-module plaatsen? Dit soort prototypes kunnen ervoor zorgen dat je veel informatie verkrijgt. We hebben een prototype uit karton om in levende lijve te kunnen kijken en meten waar alles zou kunnen passen, en een 3D-model dat al een heel stuk dichter bij het eindresultaat komt.
 
 ![Alt text](<Foto's/3D project voorkant open.png>)
+
 3D ontwerp voorkant met open kleppen
 
 ![Alt text](<Foto's/3D project voorkant gesloten.png>)
+
 3D onwerp voorkant met gesloten kleppen.
 
 ![Alt text](<Foto's/3D project zijkant.png>)
+
 3D ontwerp zijkant
 
 ![Alt text](<Foto's/3D project achterkant.png>)
+
 3D ontwerpt achterkant
 
 ![Alt text](<Foto's/Prototype 1_1.jpg>)
+
 Prototype voorkant
 
 ![Alt text](<Foto's/Prototype 1_2.jpg>)
+
 Prototype onderkant
 
 ## 5. Testen van het systeem
