@@ -38,7 +38,7 @@ Door middel van onze automatische voederbak kun je dit tegen gaan. Je kunt deze 
 
 ## 4. Prototype
 
-Aan de hand van onze prototypes hebben we een realistische en haalbare grootte kunnen kiezen om daarop later onze PCB's en onze motoren te baseren. Hoe groot kan onze PCB zijn? Hoe groot zijn de kleppen die opengaan? Hoe groot wordt de lade om de bak bij te vullen? Hoe groot kunnen de motoren zijn? Waar kunnen we het beste onze Wi-Fi-module plaatsen? Dit soort prototypes kunnen ervoor zorgen dat je veel informatie verkrijgt. We hebben een prototype uit karton om in levende lijve te kunnen kijken en meten waar alles zou kunnen passen, en een 3D-model dat al een heel stuk dichter bij het eindresultaat komt.
+Aan de hand van onze prototypes hebben we een realistische en haalbare grootte kunnen kiezen om daarop later onze PCB's en onze motoren te baseren. Hoe groot kan onze PCB zijn? Hoe groot zijn de kleppen die opengaan? Hoe groot wordt de lade om de bak bij te vullen? Hoe groot kunnen de motoren zijn? Waar kunnen we het beste onze microcontroller met Wi-Fi plaatsen? Dit soort prototypes kunnen ervoor zorgen dat je veel informatie verkrijgt. We hebben een prototype uit karton om in levende lijve te kunnen kijken en meten waar alles zou kunnen passen, en een 3D-model dat al een heel stuk dichter bij het eindresultaat komt.
 
 ![Alt text](<Foto's/3D project voorkant open.png>)
 
@@ -66,20 +66,20 @@ Prototype onderkant
 
 ## 5. Testen van het systeem
 
-#### Test 1, kan de sensor beweging detecteren?
+#### Test 1, kan de sensor gewicht meten?
 
-Als eerste test zou je de code kunnen testen deze zal vaak eerder klaar zijn dan de PCB en zal ook meer tijd en aandacht nodig hebben. Het stuk code dat instaat om beweging te detecteren in dit geval de korrels eten kunnen we testen door een blokje hout vanonder de sensor te halen. Als deze dit detecteert laat deze code een lampje branden dit wordt later vervangen door de motoren.
-Deze test in geslaagd als het stuk code alleen maar het lampje aanstuurt als de sensor een hoogteverschil meet.
+Als eerste test zou je de code kunnen testen deze zal vaak eerder klaar zijn dan de PCB en zal ook meer tijd en aandacht nodig hebben. Als het stuk code dat instaat om gewicht the meten, kunnen we de gewicht op de sensor leggen en kijken of de gegevens wel aanpassen en juist zijn. Als deze dit juist meet zal er bij een klein gewicht een lampje branden later vervangen door de motoren.
+Deze test is geslaagd als het stuk code alleen maar het lampje aanstuurt als de sensor en gewicht meet dat kleiner is dan de ingestelde waarde .
 
 #### Test 2, motoren aansturen
 
-Als test 1 het gewenste resultaat heeft opgeleverd kunnen we nu test 2 uitvoeren. Deze test bestaat uit een nieuw stuk code waar de motoren mee kunnen worden aangestuurd en een stuk code waar de hoogte sensor mee wordt aangestuurd dit is dezelfde code die werd gebruikt in de eerste test enkel is hier een delay van 5 seconden ingesteld tussen het moment dat het blokje hout weg wordt genomen en het moment dat de motoren beginnen te draaien. 
+Als test 1 het gewenste resultaat heeft opgeleverd kunnen we nu test 2 uitvoeren. Deze test bestaat uit een nieuw stuk code waar de motoren mee kunnen worden aangestuurd en een stuk code waar het gewicht wordt gemeten, dit is dezelfde code die werd gebruikt in de eerste test enkel is hier een delay van 5 seconden ingesteld tussen het moment dat het blokje hout weg wordt genomen en het moment dat de motoren beginnen te draaien. 
 Deze test is geslaagd als we een blokje weg nemen en na een delay van 5 seconden de motoren 90° draaien. De delay kan worden gemeten via een stopwatch of via een oscillator.
 
 #### Test 3, Alles in bouwen
 
 Als test 2 het gewenste resultaat heeft opgeleverd kunnen we nu de laatste test uitvoeren test 3. Deze test bestaat eruit dat alle onderdelen en PCB’s ingebouwd worden en aangesloten.
-Deze test is geslaagd als we een blokje wegnemen van onder de sensor en na een delay van 5 seconden er hondenbrokken naar beneden vallen voor een duur van 3 seconden. Na een delay van 10 seconden om de korrels wat tijd te geven om stil te blijven liggen zal de afstand sensor nog eens meten en als de afstand tot de brokken 15 cm is zullen de motoren niet meer draaien. Als de afstand tussen de 10 en 5 cm is zullen de motoren opnieuw 90° draaien voor een duur tijd van 3 seconden en zo weer de cyclus her lopen. Als de afstand tussen de brokken en de sensor meer is dan 10 cm zullen de motoren ook 90° draaien maar is de duur tijd 2 seconden. Deze cyclus zal hij blijven herhalen tot de afstand 15 cm of meer is.
+Deze test is geslaagd als we een blokje wegnemen van de sensor en na een delay van 5 seconden er hondenbrokken naar beneden vallen voor een duur van 3 seconden. Na een delay van 10 seconden om de korrels wat tijd te geven om stil te blijven liggen zal het gewicht nog eens gemeten worden. Als het gewicht de verwachte waarde heeft zullen de motoren niet meer draaien. Als het gewicht minder is dan verwacht zullen de motoren opnieuw 90° draaien voor een duur tijd van 3 seconden en zo weer de cyclus her lopen. 
 
 
 
